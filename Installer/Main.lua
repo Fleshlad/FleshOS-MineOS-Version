@@ -17,7 +17,7 @@ local EEPROMProxy, internetProxy, GPUProxy =
 GPUProxy.bind(getComponentAddress("screen"))
 local screenWidth, screenHeight = GPUProxy.getResolution()
 
-local repositoryURL = "https://raw.githubusercontent.com/YoPoster/Minedows-95/main/"
+local repositoryURL = "https://raw.githubusercontent.com/Fleshlad/FleshOS/main/"
 local installerURL = "Installer/"
 local EFIURL = "EFI/Minified.lua"
 
@@ -42,7 +42,7 @@ end
 
 local function title()
 	local y = math.floor(screenHeight / 2 - 1)
-	centrizedText(y, 0x2D2D2D, "asshole test os 1.2.3 lo xd 2022 2023 real? client leaeked")
+	centrizedText(y, 0x2D2D2D, "FleshOS")
 
 	return y + 2
 end
